@@ -30,7 +30,7 @@ jobs:
           - name: kali_rolling
             base_image: kalilinux/kali-rolling
           - name: kali_release
-            base_image: kalilinux/kali-last-snapshot
+            base_image: kalilinux/kali-last-release
 
     permissions:
       packages: write
